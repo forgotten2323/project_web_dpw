@@ -95,7 +95,7 @@
 							if ($_SESSION["pass"] ==  $password ){
 
 								$_SESSION['log'] = true;
-								header("Location:project_web_dpw/web covid/index.php");
+								header("Location:web covid/index.php");
 							}
 							else echo"<script>alert('Password salah');</script>";
 						}else {
