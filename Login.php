@@ -83,7 +83,7 @@
                         $ID   = $_POST['ID'];
                         $password       = $_POST['pass'];
 						
-						$sql = "SELECT * FROM tb_daftar WHERE id_user='$ID'";
+						$sql = "SELECT * FROM U0YVkPXzzm.tb_daftar WHERE id_user='$ID'";
 						$hasil = mysqli_query ($conn,$sql);
 						$jumlah = mysqli_num_rows($hasil);
 
