@@ -1,8 +1,7 @@
 <?php
-$host = 'remotemysql.com';
-$db = 'U0YVkPXzzm';
-$user = 'U0YVkPXzzm';
-$pass = 'mlTZ4W2cuo';
-
-$dsn = "mysql:host=$host;dbname=$db;
+$conn = mysqli_connect('remotemysql.com','U0YVkPXzzm','mlTZ4W2cuo','U0YVkPXzzm');
+if($conn){
+	// echo 'berhasil';
+}else {
+	// echo 'gagal';
 ?>
