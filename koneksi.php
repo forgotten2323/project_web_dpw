@@ -1,8 +1,6 @@
 <?php
-$conn = mysqli_connect('localhost','root','','project_web');
-if($conn){
-	// echo 'berhasil';
-}else {
-	// echo 'gagal';
-}
+$host = 'remotemysql.com';
+$db = 'U0YVkPXzzm';
+$user = 'U0YVkPXzzm';
+$pass = 'mlTZ4W2cuo'; 
 ?>
